@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        #border-1 {
+            border-style: solid;
+        }
+
+        #border-2 {
+            border-style: dotted;
+        }
+
+        #border-3 {
+            border-style: double;
+        }
+
+        #border-4 {
+            border-style: dashed;
+        }
+
+        #border-5 {
+            border-top-style: dashed;
+            border-right-style: solid;
+            border-left-style: dotted;
+        }
+
+        #border-6 {
+            border-style: solid;
+            border-width: medium;
+        }
+
+        #border-7 {
+            border-style: solid;
+            border-top-width: thin;
+            border-right-width: thick;
+            border-bottom-width: medium;
+            border-left-width: thin;
+        }
+
+        #border-8 {
+            border: thick solid rgb(157, 255, 0);
+            border-radius: 5px;
+        }
+
+        #border-9 {
+            border: thick solid rgba(0, 238, 255, 0.507);
+            border-radius: 2px 4px 8px 16px;
+        }
+
+
+        #border-10 {
+            border: 10px rgb(182, 157, 110) groove;
+        }
+
+        #border-11 {
+            border: 10px rgb(191, 32, 231) ridge;
+        }
+
+        #border-12 {
+            border: 10px rgb(207, 228, 115) inset;
+        }
+
+        #border-13 {
+            border: 10px rgb(57, 235, 241) outset;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="border-1">Solid Border</p>
+    <p id="border-2">Dotted Border</p>
+    <p id="border-3">Double Border</p>
+    <p id="border-4">Dashed Border</p>
+
+    <p id="border-5">Dashed-top,Solid-right,Dotted-left Border</p>
+
+    <p id="border-6">Solid-medium Border</p>
+    <p id="border-7">Solid top-thin right-thick bottom=medium left-thin Border</p>
+
+    <p id="border-8">Solid-thick-colored Same-border-radius Border</p>
+    <p id="border-9">Solid-thick-colored Different-border-radius Border</p>
+
+    <p id="border-10">groove Border</p>
+    <p id="border-11">ridge Border</p>
+    <p id="border-12">inset Border</p>
+    <p id="border-13">outset Border</p>
+
+</html>
